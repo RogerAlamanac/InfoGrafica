@@ -33,14 +33,35 @@ void display(void) {
 	glFlush();
 }
 
+void drawTriangle() {
+	glBegin(GL_TRIANGLES);
+	glVertex2f(50, 50);
+	glVertex2f(100, 100);
+	glVertex2f(150, 50);
+	
+
+	glEnd();
+}
+
+void Exercici1(void) {
+	glClear(GL_COLOR_BUFFER_BIT);
+	glColor3f(0.0, 0.0, 1.0);
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity(); //Aixi la imatge es queda quieta
+	glTranslatef(30, 20, 0);
+	drawTriangle();
+	glFlush();
+
+}
 int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowSize(400, 300);
+	glutInitWindowSize(800, 600);
 	glutInitWindowPosition(400, 400);
 
 	glutCreateWindow("Transformations 2D");
 	init();
-	glutDisplayFunc(display);
+	//glutDisplayFunc(display);
+	glutDisplayFunc(Exercici1);
 	glutMainLoop();
 }
