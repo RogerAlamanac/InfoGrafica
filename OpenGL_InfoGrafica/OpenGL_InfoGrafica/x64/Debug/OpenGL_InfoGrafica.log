@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\OpenGL_InfoGrafica\main.cpp(13,23): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\OpenGL_InfoGrafica\main.cpp(13,16): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\OpenGL_InfoGrafica\main.cpp(14,21): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\OpenGL_InfoGrafica\main.cpp(14,16): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\OpenGL_InfoGrafica\main.cpp(15,24): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\OpenGL_InfoGrafica\main.cpp(15,17): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  OpenGL_InfoGrafica.vcxproj -> C:\Users\RogerAlamanacLlena\Documents\InfoGrafica\OpenGL_InfoGrafica\x64\Debug\OpenGL_InfoGrafica.exe
